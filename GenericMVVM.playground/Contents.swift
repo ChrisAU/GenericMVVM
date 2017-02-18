@@ -128,7 +128,7 @@ final class PersonViewController: UIViewController, View {
             personView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: padding),
             personView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -padding),
             personView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -padding)
-            ])
+        ])
     }
     
     required init?(coder aDecoder: NSCoder) {
